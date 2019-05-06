@@ -7,7 +7,7 @@ BUCK for Raspberry Pi3 compiled from the root [Buck repository](https://github.c
 To compile BUCK for ARM, follow all instructions from the root BUCK repository, plus:
 
 
-> "apt-get install g++-aarch64-linux-gnu"
+> "apt-get install g++-aarch64-linux-gnu"  
 > "HOST=aarch64-linux-gnu ./zcutil/build.sh -j$(nproc)"
 
 Security Warnings
